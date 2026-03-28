@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "347138059798",
+    "project_id": "myapp-475c7",
+    "storage_bucket": "myapp-475c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347138059798:android:993207998a865d02754f37",
+        "android_client_info": {
+          "package_name": "com.hoan.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsLP0D0QKr1--SuQ7mf1CXxyy43ChxDH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

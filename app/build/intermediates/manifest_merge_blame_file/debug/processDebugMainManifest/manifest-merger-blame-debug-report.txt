@@ -1,0 +1,326 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.hoan.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:5:5-78
+12-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:7:5-62:19
+15        android:allowBackup="true"
+15-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.8.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\8ebe50b6744adc6ee422b7a8bc4f1afb\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:icon="@mipmap/ic_launcher"
+19-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:9:9-43
+20        android:label="@string/app_name"
+20-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:10:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:11:9-54
+22        android:supportsRtl="true"
+22-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:12:9-35
+23        android:theme="@style/Theme.ShoeApp" >
+23-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:13:9-45
+24        <activity
+24-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:14:9-22:20
+25            android:name="com.hoan.myapplication.activities.SignInActivity"
+25-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:15:13-76
+26            android:exported="true" >
+26-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:16:13-36
+27            <intent-filter>
+27-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:18:17-69
+28-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:20:17-77
+30-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity
+33-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:24:9-28:71
+34            android:name="com.hoan.myapplication.activities.MainActivity"
+34-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:25:13-52
+35            android:configChanges="orientation"
+35-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:26:13-48
+36            android:exported="false"
+36-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:27:13-37
+37            android:windowSoftInputMode="stateVisible|adjustResize" />
+37-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:28:13-68
+38        <activity
+38-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:31:9-35:71
+39            android:name="com.hoan.myapplication.activities.ProductActivity"
+39-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:32:13-55
+40            android:configChanges="orientation"
+40-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:33:13-48
+41            android:exported="false"
+41-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:34:13-37
+42            android:windowSoftInputMode="stateVisible|adjustResize" />
+42-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:35:13-68
+43        <activity
+43-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:37:9-41:71
+44            android:name="com.hoan.myapplication.activities.EditProfileActivity"
+44-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:38:13-59
+45            android:configChanges="orientation"
+45-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:39:13-48
+46            android:exported="false"
+46-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:40:13-37
+47            android:windowSoftInputMode="stateVisible|adjustResize" />
+47-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:41:13-68
+48        <activity
+48-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:43:9-47:71
+49            android:name="com.hoan.myapplication.activities.CheckoutActivity"
+49-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:44:13-56
+50            android:configChanges="orientation"
+50-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:45:13-48
+51            android:exported="false"
+51-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:46:13-37
+52            android:windowSoftInputMode="stateVisible|adjustResize" />
+52-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:47:13-68
+53        <activity
+53-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:49:9-53:71
+54            android:name="com.hoan.myapplication.activities.OrderHistoryActivity"
+54-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:50:13-60
+55            android:configChanges="orientation"
+55-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:51:13-48
+56            android:exported="false"
+56-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:52:13-37
+57            android:windowSoftInputMode="stateVisible|adjustResize" />
+57-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:53:13-68
+58        <activity
+58-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:56:9-60:71
+59            android:name="com.hoan.myapplication.activities.SignUpActivity"
+59-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:57:13-54
+60            android:configChanges="orientation"
+60-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:58:13-48
+61            android:exported="false"
+61-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:59:13-37
+62            android:windowSoftInputMode="stateVisible|adjustResize" />
+62-->D:\namhai\hocky2\laptrinhdidong\kotlin\MyApplication\app\src\main\AndroidManifest.xml:60:13-68
+63
+64        <service
+64-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:12:9-18:19
+65            android:name="com.google.firebase.components.ComponentDiscoveryService"
+65-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:13:13-84
+66            android:directBootAware="true"
+66-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+67            android:exported="false" >
+67-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:14:13-37
+68            <meta-data
+68-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:15:13-17:85
+69                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+69-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:16:17-124
+70                android:value="com.google.firebase.components.ComponentRegistrar" />
+70-->[com.google.firebase:firebase-database-ktx:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\336db9788b0577b5301ce94edcfe5404\transformed\firebase-database-ktx-20.0.6\AndroidManifest.xml:17:17-82
+71            <meta-data
+71-->[com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\8d066c90d5f6904a625aafaf2a6e13a4\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:15:13-17:85
+72                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar"
+72-->[com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\8d066c90d5f6904a625aafaf2a6e13a4\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:16:17-126
+73                android:value="com.google.firebase.components.ComponentRegistrar" />
+73-->[com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\8d066c90d5f6904a625aafaf2a6e13a4\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:17:17-82
+74            <meta-data
+74-->[com.google.firebase:firebase-auth-ktx:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\d14bd255cdbaff1fd2e72bc586c8118f\transformed\firebase-auth-ktx-21.0.8\AndroidManifest.xml:11:13-13:85
+75                android:name="com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar"
+75-->[com.google.firebase:firebase-auth-ktx:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\d14bd255cdbaff1fd2e72bc586c8118f\transformed\firebase-auth-ktx-21.0.8\AndroidManifest.xml:12:17-116
+76                android:value="com.google.firebase.components.ComponentRegistrar" />
+76-->[com.google.firebase:firebase-auth-ktx:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\d14bd255cdbaff1fd2e72bc586c8118f\transformed\firebase-auth-ktx-21.0.8\AndroidManifest.xml:13:17-82
+77            <meta-data
+77-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:67:13-69:85
+78                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+78-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:68:17-109
+79                android:value="com.google.firebase.components.ComponentRegistrar" />
+79-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:69:17-82
+80            <meta-data
+80-->[com.google.firebase:firebase-database:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\51890233529efb6b1307dfcb5674dd4b\transformed\firebase-database-20.0.6\AndroidManifest.xml:32:13-34:85
+81                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+81-->[com.google.firebase:firebase-database:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\51890233529efb6b1307dfcb5674dd4b\transformed\firebase-database-20.0.6\AndroidManifest.xml:33:17-109
+82                android:value="com.google.firebase.components.ComponentRegistrar" />
+82-->[com.google.firebase:firebase-database:20.0.6] C:\Users\HOAN\.gradle\caches\8.9\transforms\51890233529efb6b1307dfcb5674dd4b\transformed\firebase-database-20.0.6\AndroidManifest.xml:34:17-82
+83            <meta-data
+83-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\93e66c38b709cc564a621af69b7f66d9\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:20:13-22:85
+84                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+84-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\93e66c38b709cc564a621af69b7f66d9\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:21:17-111
+85                android:value="com.google.firebase.components.ComponentRegistrar" />
+85-->[com.google.firebase:firebase-firestore:24.3.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\93e66c38b709cc564a621af69b7f66d9\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:22:17-82
+86            <meta-data
+86-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\07b6249426fcaecb81c98dbebf190fc5\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:15:13-17:85
+87                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+87-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\07b6249426fcaecb81c98dbebf190fc5\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:16:17-113
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\07b6249426fcaecb81c98dbebf190fc5\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:17:17-82
+89        </service>
+90
+91        <activity
+91-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:23:9-27:75
+92            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+92-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:24:13-93
+93            android:excludeFromRecents="true"
+93-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:25:13-46
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:26:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:27:13-72
+96        <!--
+97            Service handling Google Sign-In user revocation. For apps that do not integrate with
+98            Google Sign-In, this service will never be started.
+99        -->
+100        <service
+100-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:33:9-37:51
+101            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+101-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:34:13-89
+102            android:exported="true"
+102-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:35:13-36
+103            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+103-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:36:13-107
+104            android:visibleToInstantApps="true" />
+104-->[com.google.android.gms:play-services-auth:20.3.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\03f8c9025f249d6afb568ce9503d1660\transformed\play-services-auth-20.3.0\AndroidManifest.xml:37:13-48
+105
+106        <activity
+106-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:27:9-44:20
+107            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+107-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:28:13-80
+108            android:excludeFromRecents="true"
+108-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:29:13-46
+109            android:exported="true"
+109-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:30:13-36
+110            android:launchMode="singleTask"
+110-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:31:13-44
+111            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+111-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:32:13-72
+112            <intent-filter>
+112-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:33:13-43:29
+113                <action android:name="android.intent.action.VIEW" />
+113-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+113-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+114
+115                <category android:name="android.intent.category.DEFAULT" />
+115-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+115-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+116                <category android:name="android.intent.category.BROWSABLE" />
+116-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+116-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+117
+118                <data
+118-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:39:17-42:51
+119                    android:host="firebase.auth"
+119-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:40:21-49
+120                    android:path="/"
+120-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:41:21-37
+121                    android:scheme="genericidp" />
+121-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:42:21-48
+122            </intent-filter>
+123        </activity>
+124        <activity
+124-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:45:9-62:20
+125            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+125-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:46:13-79
+126            android:excludeFromRecents="true"
+126-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:47:13-46
+127            android:exported="true"
+127-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:48:13-36
+128            android:launchMode="singleTask"
+128-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:49:13-44
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+129-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:50:13-72
+130            <intent-filter>
+130-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:51:13-61:29
+131                <action android:name="android.intent.action.VIEW" />
+131-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:34:17-69
+131-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:34:25-66
+132
+133                <category android:name="android.intent.category.DEFAULT" />
+133-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:36:17-76
+133-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:36:27-73
+134                <category android:name="android.intent.category.BROWSABLE" />
+134-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:37:17-78
+134-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:37:27-75
+135
+136                <data
+136-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:39:17-42:51
+137                    android:host="firebase.auth"
+137-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:40:21-49
+138                    android:path="/"
+138-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:41:21-37
+139                    android:scheme="recaptcha" />
+139-->[com.google.firebase:firebase-auth:21.0.8] C:\Users\HOAN\.gradle\caches\8.9\transforms\209827ae782974aea184fa1b2eee6cf0\transformed\firebase-auth-21.0.8\AndroidManifest.xml:42:21-48
+140            </intent-filter>
+141        </activity>
+142        <activity
+142-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\56d1272643b24d65b6daf8c9be1a7fb4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+143-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\56d1272643b24d65b6daf8c9be1a7fb4\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\56d1272643b24d65b6daf8c9be1a7fb4\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\56d1272643b24d65b6daf8c9be1a7fb4\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+149            android:authorities="com.hoan.myapplication.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+150            android:directBootAware="true"
+150-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+151            android:exported="false"
+151-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+152            android:initOrder="100" />
+152-->[com.google.firebase:firebase-common:20.1.2] C:\Users\HOAN\.gradle\caches\8.9\transforms\f224c31457210f4557883319ad02b061\transformed\firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+153
+154        <meta-data
+154-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\fe1e5b64226104236b07b0944fb82b02\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+155            android:name="com.google.android.gms.version"
+155-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\fe1e5b64226104236b07b0944fb82b02\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+156            android:value="@integer/google_play_services_version" />
+156-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\fe1e5b64226104236b07b0944fb82b02\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+157
+158        <uses-library
+158-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+159            android:name="androidx.window.extensions"
+159-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+160            android:required="false" />
+160-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+161        <uses-library
+161-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+162            android:name="androidx.window.sidecar"
+162-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+163            android:required="false" />
+163-->[androidx.window:window:1.0.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\4b61d57fa0e85b8f2c35b64974948cf9\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+164
+165        <provider
+165-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+166            android:name="androidx.startup.InitializationProvider"
+166-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+167            android:authorities="com.hoan.myapplication.androidx-startup"
+167-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+168            android:exported="false" >
+168-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+169            <meta-data
+169-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+170                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+170-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+171                android:value="androidx.startup" />
+171-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HOAN\.gradle\caches\8.9\transforms\650c65f83930135f94fdb19d21b4067f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+172            <meta-data
+172-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\75e8ff9bb9dea0005a58bbd570b39673\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+173                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+173-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\75e8ff9bb9dea0005a58bbd570b39673\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+174                android:value="androidx.startup" />
+174-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HOAN\.gradle\caches\8.9\transforms\75e8ff9bb9dea0005a58bbd570b39673\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+175        </provider>
+176    </application>
+177
+178</manifest>

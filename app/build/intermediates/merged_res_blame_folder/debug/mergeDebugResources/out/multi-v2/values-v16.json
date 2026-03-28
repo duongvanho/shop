@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.hoan.myapplication.app-mergeDebugResources-49:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\HOAN\\.gradle\\caches\\8.9\\transforms\\8ebe50b6744adc6ee422b7a8bc4f1afb\\transformed\\core-1.8.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HOAN\\.gradle\\caches\\8.9\\transforms\\b88678c39980851a7278befdb9420b8d\\transformed\\appcompat-1.5.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                }
+            ]
+        }
+    ]
+}
